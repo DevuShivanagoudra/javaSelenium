@@ -9,6 +9,6 @@ public class HomeTest extends BaseTest {
     @Test
     public void testLogo() {
         getHome().waitForScreenToLoad();
-        Assert.assertTrue(getHome().isLogoDisplayed(), "Logo is not displayed.");
+        Assert.assertTrue(getHome().isLogoDisplayed(), "Tools QA Logo is not displayed.");
     }
 }
