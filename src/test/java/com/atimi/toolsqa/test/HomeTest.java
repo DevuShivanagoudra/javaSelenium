@@ -11,4 +11,12 @@ public class HomeTest extends BaseTest {
         getHome().waitForScreenToLoad();
         Assert.assertTrue(getHome().isLogoDisplayed(), "Tools QA Logo is not displayed.");
     }
+
+    @Test
+    public void testHomeLink() {
+        getHome().waitForScreenToLoad();
+        getHome().clickSeleniumTraining();
+        Assert.assertTrue(getHome().isSeleniumTrainingPageDisplayed(),
+                "Selenium Training page is not displayed.");
+    }
 }
