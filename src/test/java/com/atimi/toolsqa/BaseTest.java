@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 
 /**
@@ -53,6 +53,15 @@ public abstract class BaseTest {
         return pageRegistry;
     }
 
+    public Home getHome() {
+        return pageRegistry.get(Home.class);
+    }
+
+    @AfterClass(alwaysRun = true)
+    public void quitBrowser() {
+        driver.quit();
+    }
+
     public static class PageRegistry {
 
         Map<Class<?>, Object> pageObject = new HashMap<>();
@@ -78,18 +87,8 @@ public abstract class BaseTest {
         }
 
 
-
         public void setPageFactory(PageFactory pageFactory) {
             this.pageFactory = pageFactory;
         }
-    }
-
-    public Home getHome() {
-        return pageRegistry.get(Home.class);
-    }
-
-    @AfterMethod
-    public void quitBrowser() {
-        driver.quit();
     }
 }
