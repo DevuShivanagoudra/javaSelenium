@@ -6,13 +6,13 @@ import org.testng.annotations.Test;
 
 public class HomeTest extends BaseTest {
 
-    @Test
+    @Test(priority = 0)
     public void testLogo() {
         getHome().waitForScreenToLoad();
         Assert.assertTrue(getHome().isLogoDisplayed(), "Tools QA Logo is not displayed.");
     }
 
-    @Test
+    @Test(priority = 1)
     public void testHomeLink() {
         getHome().waitForScreenToLoad();
         getHome().clickSeleniumTraining();

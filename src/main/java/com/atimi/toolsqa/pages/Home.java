@@ -10,7 +10,6 @@ public class Home extends BasePage {
 
     public Home(final WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
     @Override
