@@ -11,8 +11,6 @@ public class TabBar extends BasePage {
     @FindBy(linkText = "Selenium Training")
     private WebElement seleniumTraining;
 
-
-
     public TabBar(WebDriver driver) {
         super(driver);
     }
