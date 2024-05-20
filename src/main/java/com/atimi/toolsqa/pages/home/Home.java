@@ -1,21 +1,11 @@
-package com.atimi.toolsqa.pages;
+package com.atimi.toolsqa.pages.home;
 
 import com.atimi.toolsqa.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class Home extends BasePage {
-
-    public Home(final WebDriver driver) {
-        super(driver);
-    }
-
-    @Override
-    public void waitForScreenToLoad() {
-        waitForElementToDisplay(logo);
-    }
 
     @FindBy(xpath = "//img [@class = \"tools-qa-header__logo\"]")
     private WebElement logo;
@@ -28,6 +18,15 @@ public class Home extends BasePage {
 
     @FindBy(xpath = "//div[text() = \"Selenium Certification Training | Enroll Now | Study Online\"]")
     private WebElement seleniumTrainingPage;
+
+    public Home(final WebDriver driver) {
+        super(driver);
+    }
+
+    @Override
+    public void waitForScreenToLoad() {
+        waitForElementToDisplay(logo);
+    }
 
     /**
      * Checks logo is displayed or not.

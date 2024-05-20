@@ -1,6 +1,6 @@
 package com.atimi.toolsqa;
 
-import com.atimi.toolsqa.pages.Home;
+import com.atimi.toolsqa.pages.home.Home;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;

@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public abstract class BasePage {
 
-    private WebDriver driver;
+    protected WebDriver driver;
 
     protected abstract void waitForScreenToLoad();
     protected BasePage(final WebDriver driver) {
