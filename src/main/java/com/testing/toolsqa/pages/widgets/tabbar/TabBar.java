@@ -1,7 +1,7 @@
-package com.atimi.toolsqa.pages.widgets.tabbar;
+package com.testing.toolsqa.pages.widgets.tabbar;
 
-import com.atimi.toolsqa.BasePage;
-import com.atimi.toolsqa.constants.TabBarOptions;
+import com.testing.toolsqa.BasePage;
+import com.testing.toolsqa.constants.TabBarOptions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

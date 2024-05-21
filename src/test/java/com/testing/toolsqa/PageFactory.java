@@ -1,6 +1,6 @@
-package com.atimi.toolsqa;
+package com.testing.toolsqa;
 
-import com.atimi.toolsqa.pages.home.Home;
+import com.testing.toolsqa.pages.home.Home;
 import org.openqa.selenium.WebDriver;
 
 public class PageFactory {

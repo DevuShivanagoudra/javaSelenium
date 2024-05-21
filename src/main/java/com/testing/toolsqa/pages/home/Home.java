@@ -1,6 +1,6 @@
-package com.atimi.toolsqa.pages.home;
+package com.testing.toolsqa.pages.home;
 
-import com.atimi.toolsqa.BasePage;
+import com.testing.toolsqa.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

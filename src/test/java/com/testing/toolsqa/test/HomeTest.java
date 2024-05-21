@@ -1,6 +1,6 @@
-package com.atimi.toolsqa.test;
+package com.testing.toolsqa.test;
 
-import com.atimi.toolsqa.BaseTest;
+import com.testing.toolsqa.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

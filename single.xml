@@ -3,7 +3,7 @@
 <suite thread-count="1" parallel="tests" name="Suite">
     <test thread-count="1" parallel="classes" name="Test">
         <classes>
-            <class name="com.atimi.toolsqa.test.HomeTest"/>
+            <class name="test.com.testing.toolsqa.HomeTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

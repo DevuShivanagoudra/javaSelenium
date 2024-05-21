@@ -1,6 +1,6 @@
-package com.atimi.toolsqa.pages;
+package com.testing.toolsqa.pages;
 
-import com.atimi.toolsqa.BasePage;
+import com.testing.toolsqa.BasePage;
 import org.openqa.selenium.WebDriver;
 
 public class SeleniumTraining extends BasePage {

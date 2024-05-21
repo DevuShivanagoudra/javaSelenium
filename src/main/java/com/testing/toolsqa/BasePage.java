@@ -1,4 +1,4 @@
-package com.atimi.toolsqa;
+package com.testing.toolsqa;
 
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;

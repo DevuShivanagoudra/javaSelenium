@@ -1,4 +1,4 @@
-package com.atimi.toolsqa.constants;
+package com.testing.toolsqa.constants;
 
 public enum TabBarOptions {
     HOME("HOME"),
